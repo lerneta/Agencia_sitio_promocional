@@ -29,3 +29,12 @@ document.addEventListener('DOMContentLoaded', function () {
       })
   
   }
+
+  window. onscroll = function() {
+    var y = window. scrollY;
+    if(y<=45){
+      document.getElementById('mensup').style.display='none';
+    }else{
+      document.getElementById('mensup').style.display='';
+    }
+  }

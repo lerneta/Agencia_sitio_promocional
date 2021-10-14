@@ -170,6 +170,77 @@ section {
 .overlay {
   color: #fff;
 }
+
+.button2 {
+  width: 133px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 34px;
+  top: -10px;
+  position: relative;
+  padding-top: 4px;
+
+  margin-left: -10px;
+}
+.button2 p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  #mensup {
+    visibility: hidden;
+  }
+
+  .button1 {
+    width: 133px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 34px;
+
+    position: relative;
+    padding-top: 4px;
+    padding-left: 7px;
+    margin-left: -10px;
+  }
+  .button1 p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #ffffff;
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .button1 {
+    width: 133px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 34px;
+    position: relative;
+    padding-top: 4px;
+    padding-left: 7px;
+    margin-left: 10px;
+  }
+  .button1 p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #ffffff;
+  }
+}
+
 .overlay:before {
   position: absolute;
   display: block;
@@ -936,3 +1007,106 @@ section {
 }
 
 /*=====  End of RESPONSIVE  ======*/
+/* Sección Superior Fixed */
+#mensup {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background: #00656e;
+  z-index: 2;
+  box-shadow: 2px 2px 20px -6px rgba(0, 0, 0, 0.75);
+}
+#mensup ul {
+  margin-right: 60px;
+}
+
+#mensup li a {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#mensup li img {
+  margin-left: 50px;
+  width: 180px;
+  position: relative;
+  top: -4px;
+}
+
+#busqueda2 {
+  top: -10px;
+  position: relative;
+}
+
+#busqueda2 #container2 {
+  text-align: center;
+  margin: 300px;
+  border-radius: 200px 200px 200px 200px;
+  box-shadow: 10px 10px 34px -8px rgba(0, 0, 0, 0.75);
+  background: white;
+  width: 410px;
+  height: 35px;
+  margin: 0 auto 0 auto;
+}
+
+#busqueda2 #container2 input {
+  border: 0px;
+  float: left;
+  margin-left: 25px;
+  height: 34px;
+  width: 40%;
+  color: #555555;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+}
+#busqueda2 #container2 input:focus {
+  outline: none;
+}
+.divisionfloat {
+  width: 1px;
+  height: 30px;
+  background: #707070;
+  float: left;
+  margin-top: 2px;
+}
+
+.searchfloat {
+  width: 30px;
+  height: 30px;
+  float: right;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 7px;
+  position: relative;
+  top: -38px;
+  left: 3px;
+  background-color: #009f95;
+  background-image: url("../images/loupe.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+}
+
+nav ul {
+  margin: 25px;
+  border: 0;
+  background-color: #c7dddf;
+}
+
+nav li {
+  display: block;
+  margin-left: 15px;
+  float: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #091312;
+}
+.lifloat {
+  float: left;
+}
