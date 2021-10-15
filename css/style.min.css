@@ -197,8 +197,12 @@ section {
     visibility: hidden;
   }
 
+  nav {
+    text-align: left !important;
+  }
+
   .button1 {
-    width: 133px;
+    width: 150px;
     height: 50px;
     border: 1px solid #ffffff;
     box-sizing: border-box;
@@ -206,8 +210,8 @@ section {
 
     position: relative;
     padding-top: 4px;
-    padding-left: 7px;
-    margin-left: -10px;
+    padding-left: -4px;
+    margin-left: 32%;
   }
   .button1 p {
     font-style: normal;
@@ -228,7 +232,7 @@ section {
     border-radius: 34px;
     position: relative;
     padding-top: 4px;
-    padding-left: 7px;
+    padding-left: 1px;
     margin-left: 10px;
   }
   .button1 p {
@@ -252,9 +256,9 @@ section {
   right: 0;
   background: #2d8487;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #333399, #2d8487);
+  background: -webkit-linear-gradient(to right, #00656e, #009f95);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #333399, #2d8487);
+  background: linear-gradient(to right, #00656e, #009f95);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .overlay.bg-white {
@@ -330,8 +334,8 @@ section {
   width: 2000px;
   height: 400px;
   background: #8e2de2;
-  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: -webkit-linear-gradient(to right, #00656e, #009f95);
+  background: linear-gradient(to right, #00656e, #009f95);
   transform-origin: 50% 150% 0;
   position: absolute;
   left: 0;
@@ -343,8 +347,8 @@ section {
   width: 2000px;
   height: 400px;
   background: #8e2de2;
-  background: -webkit-linear-gradient(to right, #4a00e0, #8e2de2);
-  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  background: -webkit-linear-gradient(to right, #00656e, #009f95);
+  background: linear-gradient(to right, #00656e, #009f95);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -972,9 +976,9 @@ section {
     width: 100%;
     background: #2d8487;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #2d8487);
+    background: -webkit-linear-gradient(to right, #00656e, #009f95);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #2d8487);
+    background: linear-gradient(to right, #00656e, #009f95);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11;
   }
@@ -985,9 +989,9 @@ section {
   .navbar-transparent .navbar-collapse {
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #00656e, #009f95);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #00656e, #009f95);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px;
   }
